@@ -70,7 +70,7 @@ class Graph:
 
                 if uri.startswith('#'):
                     valid = False
-                elif uri.find('@') > -1:
+                elif uri.find('mailto') > -1:
                     valid = False
                 elif uri.find('javascript') > -1:
                     valid = False
